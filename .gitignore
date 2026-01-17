@@ -1,0 +1,45 @@
+# --- Backend ignores ---
+# Node modules (backend)
+transportsystem/node_modules/
+
+# Environment variables (backend secrets)
+transportSystem/.env
+
+# Logs
+transportsystem/logs
+transportsystem/*.log
+
+# Build / dist
+transportsystem/dist/
+transportsystem/.cache/
+
+# --- Frontend ignores ---
+# Node modules (frontend)
+transport-frontend/node_modules/
+
+# Build output (React build folder)
+transport-frontend/build/
+
+# Logs
+transport-frontend/*.log
+
+# --- General ignores ---
+.DS_Store
+Thumbs.db
+
+
+# Backend
+transportsystem/node_modules/
+transportsystem/.env
+transportsystem/logs
+transportsystem/*.log
+transportsystem/dist/
+
+# Frontend
+transport-frontend/node_modules/
+transport-frontend/build/
+transport-frontend/*.log
+
+# General
+.DS_Store
+Thumbs.db

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f6ff;
+      padding: 20px;
+    }
+
+    .ticket-container {
+      width: 600px;
+      margin: auto;
+      background: white;
+      border-radius: 12px;
+      border: 2px solid #0a3cff;
+      overflow: hidden;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .ticket-header {
+      background: #0a3cff;
+      color: white;
+      padding: 18px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .ticket-body {
+      padding: 20px;
+    }
+
+    .ticket-row {
+      margin-bottom: 14px;
+      font-size: 16px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #0a3cff;
+    }
+
+    .value {
+      margin-left: 5px;
+      color: #222;
+    }
+
+    .ticket-footer {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .qr-code {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    img.qr {
+      width: 140px;
+      height: 140px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="ticket-container">
+
+  <div class="ticket-header">
+      Travel Ticket
+  </div>
+
+  <div class="ticket-body">
+
+    <div class="ticket-row">
+      <span class="label">Passenger:</span>
+      <span class="value">{{passenger_name}}</span>
+    </div>
+
+    <div class="ticket-row">
+      <span class="label">Email:</span>
+      <span class="value">{{passenger_email}}</span>
+    </div>
+
+    <div class="ticket-row">
+      <span class="label">Route:</span>
+      <span class="value">{{origin_country}} → {{destination_city}}</span>
+    </div>
+
+    <div class="ticket-row">
+      <span class="label">Travel Date:</span>
+      <span class="value">{{travel_date}}</span>
+    </div>
+
+    <div class="ticket-row">
+      <span class="label">Seat No:</span>
+      <span class="value">{{seat_no}}</span>
+    </div>
+
+    <div class="ticket-row">
+      <span class="label">Weather:</span>
+      <span class="value">{{weather_condition}}</span>
+    </div>
+
+    <div class="ticket-row">
+      <span class="label">Final Price:</span>
+      <span class="value">${{final_price}}</span>
+    </div>
+
+    <div class="ticket-row">
+      <span class="label">Ticket Number:</span>
+      <span class="value">{{ticket_number}}</span>
+    </div>
+
+    <div class="qr-code">
+      <img class="qr" src="{{qr_code}}" alt="QR Code" />
+      <div style="color:#0a3cff; font-weight:bold; margin-top:10px;">
+        Scan to verify your ticket
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

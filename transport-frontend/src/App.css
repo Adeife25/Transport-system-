@@ -1,0 +1,216 @@
+/* Body styling */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec); /* ✅ soft gradient background */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Page container */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  margin: 7px 0;  
+}
+
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+
+/* Booking form styles
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.booking-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+
+.booking-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.booking-form button:hover {
+  background-color: #0056b3;
+}
+
+
+/* General card styles */
+.card {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+
+.booking-form,
+.route-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;   /* ✅ wider form */
+  margin: 30px auto;
+  background: white;
+  padding: 30px;      /* ✅ more padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.booking-form input,
+.route-form input {
+  margin-bottom: 15px;
+  padding: 14px;      /* ✅ taller inputs */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.pdf-download {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 13px;       /* ✅ smaller text */
+  color: #fff;
+  background-color: #007bff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pdf-download:hover {
+  background-color: #0056b3;
+}
+
+
+/* .route-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.route-form input {
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+
+.route-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.route-form button:hover {
+  background-color:  #007bff;
+}
+
+nav {
+  background-color: #007bff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between; /* ✅ left and center separated */
+  align-items: center;
+  border-bottom: 4px solid #0056b3;
+}
+
+nav .brand {
+  color: white;
+  font-size: 24px;   /* ✅ bigger company name */
+  font-weight: bold;
+}
+
+nav .nav-left a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 10px;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+nav .nav-left a:hover {
+  background-color: white;
+  color: #007bff;
+}
+
+
+
+.view-details {
+  font-size: 12px;   /* ✅ smaller text */
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.view-details:hover {
+  text-decoration: underline;
+}
