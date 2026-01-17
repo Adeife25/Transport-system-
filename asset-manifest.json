@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Transport-system-/static/css/main.3340109c.css",
+    "main.js": "/Transport-system-/static/js/main.f835591e.js",
+    "static/js/453.1b85f548.chunk.js": "/Transport-system-/static/js/453.1b85f548.chunk.js",
+    "index.html": "/Transport-system-/index.html",
+    "main.3340109c.css.map": "/Transport-system-/static/css/main.3340109c.css.map",
+    "main.f835591e.js.map": "/Transport-system-/static/js/main.f835591e.js.map",
+    "453.1b85f548.chunk.js.map": "/Transport-system-/static/js/453.1b85f548.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3340109c.css",
+    "static/js/main.f835591e.js"
+  ]
+}
